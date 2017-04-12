@@ -42,7 +42,14 @@ var commonConfig = {
       template: 'src/static/index.html',
       inject:   'body',
       filename: 'index.html'
-    })
+    }),
+
+    new CopyWebpackPlugin([
+        {
+          from: 'node_modules/semantic-ui-css',
+          to: 'semantic'
+        }
+    ])
   ],
 
   postcss: [ autoprefixer( { browsers: ['last 2 versions'] } ) ],

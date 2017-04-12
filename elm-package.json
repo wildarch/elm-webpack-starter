@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "Example using `elm-webpack-loader`.",
-    "repository": "https://github.com/moarwick/elm-webpack-starter.git",
+    "summary": "Example using `elm-webpack-loader` and `semantic-ui-css`.",
+    "repository": "https://github.com/wildarch/elm-webpack-starter.git",
     "license": "MIT",
     "source-directories": [
         "src/elm"
