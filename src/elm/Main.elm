@@ -64,11 +64,11 @@ view model =
         [ elem "row"
             []
             [ elem "twelve wide column"
-                []
+                [ style [ ( "font-size", "3em"  ) ]  ]
                 [ img [ src "static/img/elm.jpg", style styles.img ] []
                 , hello model
                 , p [] [ text "Elm Webpack Starter + semantic-ui" ]
-                , elem "large primary icon button"
+                , elem "large primary labeled icon button"
                     [ onClick Increment ]
                     [ icon "star"
                     , text "FTW!"
@@ -109,14 +109,4 @@ styles =
        ]
      ]
    }
-
-   -- CSS STYLES
-   styles : { img : List ( String, String ) }
-   styles =
-     {
-       img =
-         [ ( "width", "33%" )
-         , ( "border", "4px solid #337AB7")
-         ]
-     }
 -}
