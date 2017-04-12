@@ -1,4 +1,4 @@
-# elm-webpack-starter
+# elm-webpack-starter + semantic-ui
 
 
 ### About:
@@ -6,7 +6,7 @@ A simple Webpack setup for writing [Elm](http://elm-lang.org/) apps:
 
 * Dev server with live reloading, HMR
 * Support for CSS/SCSS (with Autoprefixer), image assets
-* Bootstrap 3.3+ (Sass version)
+* semantic-ui
 * Bundling and minification for deployment
 * Basic app scaffold, using `Html.beginnerProgram`
 * A snippet of example code to get you started!
@@ -15,7 +15,7 @@ A simple Webpack setup for writing [Elm](http://elm-lang.org/) apps:
 ### Install:
 Clone this repo into a new project folder, e.g. `my-elm-project`:
 ```
-git clone https://github.com/moarwick/elm-webpack-starter my-elm-project
+git clone https://github.com/wildarch/elm-webpack-starter my-elm-project
 cd my-elm-project
 ```
 

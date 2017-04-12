@@ -44,6 +44,7 @@ var commonConfig = {
       filename: 'index.html'
     }),
 
+    // Copy semantic-ui files to {output}/semantic
     new CopyWebpackPlugin([
         {
           from: 'node_modules/semantic-ui-css',
